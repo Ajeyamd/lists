@@ -10,12 +10,14 @@
 #     print(f"{days}'s temperature is above average")
 
 total=0
+
+#create an empty list
 temp=[]
 def temperature(numdays):
     for days in range(1,int(numdays+1)):
         n=int(input(f"Enter {days}'s temperature "))
-        temp.append(n)
-    avg=sum(temp)/numdays
+        temp.append(n)                                      #append the values into empty list
+    avg=sum(temp)/numdays                                   #Find the average
     print(f"average= {avg}")
     above=0
     for i in temp:
