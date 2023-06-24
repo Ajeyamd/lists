@@ -1,3 +1,5 @@
+
+#operations on lists
 myList=list()
 while(True):
    inp=input('Enter a number ')
